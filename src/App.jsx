@@ -1,13 +1,14 @@
 import { Outlet } from "react-router-dom";
 import "./App.css";
 import Sidebar from "./components/asidebar";
+import Navbar from "./components/navbar";
 
 function App() {
   return (
     <>
       <Sidebar />
       <div className="main-content">
-        <nav>Navbar</nav>
+        <Navbar />
         <section
           style={{
             scrollBehavior: "smooth",
