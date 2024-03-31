@@ -18,7 +18,7 @@ const Sidebar = () => {
     <aside className="sidebar">
       <div className="sidebar-info">
         <figure className="avatar-box">
-          <img src="/public/images/myImage.jpg" alt="" width="120px" />
+          <img src="/images/myImage.jpg" alt="" width="120px" />
         </figure>
 
         <div className="info-content">
