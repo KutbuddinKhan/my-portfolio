@@ -1,4 +1,5 @@
 import React from "react";
+import { FaPaperPlane } from "react-icons/fa6";
 
 const Contact = () => {
   return (
@@ -46,14 +47,10 @@ const Contact = () => {
             placeholder="Type your message here..."
           />
 
-          <button 
-            className="form-btn" 
-            type="submit"
-            data-form-btn
-            >
-                <ion-icon name="paper-plane"></ion-icon>
-                <span>Send Message</span>
-            </button>
+          <button className="form-btn" type="submit" data-form-btn>
+            <FaPaperPlane />
+            <span>Send Message</span>
+          </button>
         </form>
       </section>
     </section>
